@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Eyner Roman"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: final_capstone.qmd
+        text: Capstone
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

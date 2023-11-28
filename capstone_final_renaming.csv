@@ -1,0 +1,56 @@
+old_name,new_name
+Are you self-employed?,self_employment
+How many employees does your company or organization have?,company_size
+Is your employer primarily a tech company/organization?,tech_confirmation_company
+Is your primary role within your company related to tech/IT?,tech_confirmation_role
+Does your employer provide mental health benefits as part of healthcare coverage?,mh_package_offering
+Do you know the options for mental health care available under your employer-provided coverage?,mh_package_knowledge
+"Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?",mh_discussion_employer
+Does your employer offer resources to learn more about mental health concerns and options for seeking help?,mh_employer_resources
+Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?,mh_anonymity
+"If a mental health issue prompted you to request a medical leave from work, asking for that leave would be:",mh_leave
+Do you think that discussing a mental health disorder with your employer would have negative consequences?,mh_discussion_employer_consequence
+Do you think that discussing a physical health issue with your employer would have negative consequences?,ph_discussion_employer_consequence
+Would you feel comfortable discussing a mental health disorder with your coworkers?,mh_discussion_coworker_comfort
+Would you feel comfortable discussing a mental health disorder with your direct supervisor(s)?,mh_discussion_supervisor_comfort
+Do you feel that your employer takes mental health as seriously as physical health?,employer_mh_ph_similarity
+Have you heard of or observed negative consequences for co-workers who have been open about mental health issues in your workplace?,mh_negative_consequence_observed
+Do you have previous employers?,previous_employer
+Have your previous employers provided mental health benefits?,pe_mh_package_offering
+Were you aware of the options for mental health care provided by your previous employers?,pe_mh_package_knowledge
+Did your previous employers ever formally discuss mental health (as part of a wellness campaign or other official communication)?,ph_mh_discussion_employer
+Did your previous employers provide resources to learn more about mental health issues and how to seek help?,pe_mh_employer_resources
+Was your anonymity protected if you chose to take advantage of mental health or substance abuse treatment resources with previous employers?,pe_mh_anonymity
+Do you think that discussing a mental health disorder with previous employers would have negative consequences?,pe_mh_discussion_employer_consequence
+Do you think that discussing a physical health issue with previous employers would have negative consequences?,pe_ph_discussion_employer_consequence
+Would you have been willing to discuss a mental health issue with your previous co-workers?,pe_mh_discussion_coworker_comfort
+Would you have been willing to discuss a mental health issue with your direct supervisor(s)?,pe_mh_discussion_supervisor_comfort
+Did you feel that your previous employers took mental health as seriously as physical health?,pe_employer_mh_ph_similarity
+Did you hear of or observe negative consequences for co-workers with mental health issues in your previous workplaces?,pe_mh_negative_consequence_observed
+Would you be willing to bring up a physical health issue with a potential employer in an interview?,ph_disclosure_interview
+Why or why not?...38,why_ph_disclosure_interview
+Would you bring up a mental health issue with a potential employer in an interview?,mh_disclosure_interview
+Why or why not?...40,why_mh_disclosure_interview
+Do you feel that being identified as a person with a mental health issue would hurt your career?,mh_identity_effect_career
+Do you think that team members/co-workers would view you more negatively if they knew you suffered from a mental health issue?,mh_negative_perception_coworkers
+How willing would you be to share with friends and family that you have a mental illness?,mh_sharing_friends_family
+Have you observed or experienced an unsupportive or badly handled response to a mental health issue in your current or previous workplace?,mh_poor_response
+Have your observations of how another individual who discussed a mental health disorder made you less likely to reveal a mental health issue yourself in your current workplace?,mh_confidence_at_work
+Do you have a family history of mental illness?,mh_family_history
+Have you had a mental health disorder in the past?,mh_personal_history
+Do you currently have a mental health disorder?,mh_current_condition
+"If yes, what condition(s) have you been diagnosed with?",details_current_condition
+"If maybe, what condition(s) do you believe you have?",details_suspected_condition
+Have you been diagnosed with a mental health condition by a medical professional?,mh_medical_diagnose
+"If so, what condition(s) were you diagnosed with?",details_mh_medical_diagnose
+Have you ever sought treatment for a mental health issue from a mental health professional?,mh_treatment_history
+"If you have a mental health issue, do you feel that it interferes with your work when being treated effectively?",mh_treatment_effect
+"If you have a mental health issue, do you feel that it interferes with your work when NOT being treated effectively?",mh_no_treatment_effect
+What is your age?,age
+What is your gender?,gender
+What country do you live in?,country_residence
+What US state or territory do you live in?,state_residence
+What country do you work in?,country_work
+What US state or territory do you work in?,state_work
+Which of the following best describes your work position?,job_title
+Do you work remotely?,remote_work
