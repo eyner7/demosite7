@@ -7,8 +7,6 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - href: final_capstone.qmd
         text: Capstone
 
 format:
@@ -16,6 +14,3 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-
