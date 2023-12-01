@@ -154,7 +154,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#status-of-employees-mental-health" id="toc-status-of-employees-mental-health" class="nav-link" data-scroll-target="#status-of-employees-mental-health">8.2 Status of employees’ mental health</a></li>
   <li><a href="#recurrent-attitudes-towards-mental-health-in-the-work-space" id="toc-recurrent-attitudes-towards-mental-health-in-the-work-space" class="nav-link" data-scroll-target="#recurrent-attitudes-towards-mental-health-in-the-work-space">8.3 Recurrent attitudes towards mental health in the work space</a></li>
   </ul></li>
-  <li><a href="#summary-of-data-intepretation" id="toc-summary-of-data-intepretation" class="nav-link" data-scroll-target="#summary-of-data-intepretation">9. Summary of Data Intepretation</a></li>
+  <li><a href="#summary-of-data-interpretation" id="toc-summary-of-data-interpretation" class="nav-link" data-scroll-target="#summary-of-data-interpretation">9. Summary of Data Interpretation</a></li>
   <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">10. Conclusions</a></li>
   </ul>
 </nav>
@@ -230,7 +230,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output cell-output-stdout">
 <pre><code>
 The downloaded binary packages are in
-    /var/folders/s1/pp60f75d6n142jmlnsjq9r9c0000gn/T//RtmpcXDBI4/downloaded_packages</code></pre>
+    /var/folders/s1/pp60f75d6n142jmlnsjq9r9c0000gn/T//Rtmp5W8K2d/downloaded_packages</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
@@ -270,7 +270,15 @@ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 </section>
 <section id="data-cleaning-and-formatting" class="level3">
 <h3 class="anchored" data-anchor-id="data-cleaning-and-formatting">6.3. Data cleaning and formatting</h3>
-<p>From skimming my data, I notice that I must proceed with the following data wrangling steps: * Filter out responses outside of the business task scope (from self-employed folks) * Rename column names * Remove outliers by age * Reformat gender responses * Reformatting mixed job titles * Renaming remote work categories</p>
+<p>From skimming my data, I notice that I must proceed with the following data wrangling steps:</p>
+<ol type="1">
+<li><p>Filter out responses outside of the business task scope (from self-employed folks)</p></li>
+<li><p>Rename column names</p></li>
+<li><p>Remove outliers by age</p></li>
+<li><p>Reformat gender responses</p></li>
+<li><p>Reformatting mixed job titles</p></li>
+<li><p>Renaming remote work categories</p></li>
+</ol>
 <p>First, we drop the variables containing responses from self-employed folks since the business task does not include them.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
@@ -495,7 +503,12 @@ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 </section>
 <section id="deep-data-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="deep-data-analysis">8. Deep Data Analysis</h2>
-<p>To answer the three questions for analysis, I split up the survey results thematically as stated below: 1. Current mental health offer at tech companies: Info on mental health resources available + observed responses at work 2. Status of employees’ mental health at tech companies: Info on personal and family mental health history 3. Most recurrent attitudes towards mental health in the tech work space: Info on perceptions of mental health at work + perceptions of mental health on professional career</p>
+<p>To answer the three questions for analysis, I split up the survey results thematically as stated below:</p>
+<ol type="1">
+<li><p>Current mental health offer at tech companies: Info on mental health resources available + observed responses at work</p></li>
+<li><p>Status of employees’ mental health at tech companies: Info on personal and family mental health history</p></li>
+<li><p>Most recurrent attitudes towards mental health in the tech work space: Info on perceptions of mental health at work + perceptions of mental health on professional career</p></li>
+</ol>
 <section id="current-mental-health-offer" class="level3">
 <h3 class="anchored" data-anchor-id="current-mental-health-offer">8.1 Current mental health offer</h3>
 <p>Mental health resources available at tech companies</p>
@@ -1088,8 +1101,8 @@ X-squared = 277.12, df = 4, p-value &lt; 2.2e-16</code></pre>
 <p>– Finally, there is mainly uncertainty around the effects of coworkers being aware of mental health issues, as there is an even distribution between existing or non-existing negative perceptions.</p>
 </section>
 </section>
-<section id="summary-of-data-intepretation" class="level2">
-<h2 class="anchored" data-anchor-id="summary-of-data-intepretation">9. Summary of Data Intepretation</h2>
+<section id="summary-of-data-interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="summary-of-data-interpretation">9. Summary of Data Interpretation</h2>
 <p>Sample profile:</p>
 <ul>
 <li>Middle-aged (average: 33yo), primarily working at SMEs or large corporations, in a hybrid work arrangement, usually male, and taking on the role of developer (front and back-end), mostly from the US and Canada.</li>

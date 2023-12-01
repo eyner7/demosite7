@@ -66,7 +66,19 @@ To make sure I understand how variables have been imported, I use the ´skim_wit
 
 ### 6.3. Data cleaning and formatting
 
-From skimming my data, I notice that I must proceed with the following data wrangling steps: \* Filter out responses outside of the business task scope (from self-employed folks) \* Rename column names \* Remove outliers by age \* Reformat gender responses \* Reformatting mixed job titles \* Renaming remote work categories
+From skimming my data, I notice that I must proceed with the following data wrangling steps:
+
+1.  Filter out responses outside of the business task scope (from self-employed folks)
+
+2.  Rename column names
+
+3.  Remove outliers by age
+
+4.  Reformat gender responses
+
+5.  Reformatting mixed job titles
+
+6.  Renaming remote work categories
 
 First, we drop the variables containing responses from self-employed folks since the business task does not include them.
 
@@ -239,7 +251,13 @@ mosaicplot(table(clean_mh_2016$gender_new, clean_mh_2016$work_modality), main="M
 
 ## 8. Deep Data Analysis
 
-To answer the three questions for analysis, I split up the survey results thematically as stated below: 1. Current mental health offer at tech companies: Info on mental health resources available + observed responses at work 2. Status of employees' mental health at tech companies: Info on personal and family mental health history 3. Most recurrent attitudes towards mental health in the tech work space: Info on perceptions of mental health at work + perceptions of mental health on professional career
+To answer the three questions for analysis, I split up the survey results thematically as stated below:
+
+1.  Current mental health offer at tech companies: Info on mental health resources available + observed responses at work
+
+2.  Status of employees' mental health at tech companies: Info on personal and family mental health history
+
+3.  Most recurrent attitudes towards mental health in the tech work space: Info on perceptions of mental health at work + perceptions of mental health on professional career
 
 ### 8.1 Current mental health offer
 
@@ -699,7 +717,7 @@ you suffered from a mental health issue?") +
 
 -- Finally, there is mainly uncertainty around the effects of coworkers being aware of mental health issues, as there is an even distribution between existing or non-existing negative perceptions.
 
-## 9. Summary of Data Intepretation
+## 9. Summary of Data Interpretation
 
 Sample profile:
 
