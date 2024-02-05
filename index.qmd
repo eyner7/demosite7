@@ -1,5 +1,5 @@
 ---
-title: "Mental Health in Tech: R Analysis for BetterHelp"
+title: "Mental Health in Tech: R Analysis for Spring Health"
 author: "Eyner Roman"
 format: html
 ---
@@ -8,11 +8,13 @@ Disclaimer: The context for this analysis request is entirely fictional. However
 
 ## 1. Executive Summary
 
-This analysis provides a marketing strategy for BetterHelp to expand their corporate partnership model. It analyzes the 2016 survey results by OSMI.
+This analysis provides marketing guidelines for Spring Health to expand their corporate partnership model. It analyzes the 2016 survey results by OSMI.
+
+Spring Health should address marketing to potential business partners with three defining features: (1) ensuring anonymity throughout the user process, (2) offering a practical interface that emphasizes employees' family history thoroughly during the diagnosis stage, and (3) putting emphasis on their solution as a public-health response since employees' mental health seems to affect their entire career.
 
 A few key data points:
 
--   There is an available target market of 2.8 million potential customers for BetterHelp.
+-   Within the corporate partnership model there is an available target market of 2.8 million potential customers for Spring Health.
 
 -   Anonymity around mental health in tech remains unknown for 65% of workers. Only 28% of them claim to have their confidentiality protected.
 
@@ -22,15 +24,13 @@ A few key data points:
 
 -   80.2% of respondents chose "maybe" or "yes, it would" when asked if being identified as a person with a mental health issue would hurt their career.
 
-BetterHelp should address potential business partners with three defining features: anonymous, practical, and public-health-oriented.
-
 ## 2. About the company
 
-BetterHelp is a mental health platform that provides online mental health services directly to clients. The online counseling and therapy services are provided through web-based interaction as well as phone and text communication. BetterHelp primarily operates as a subscription-based online mental health platform, but also generates revenue through other business streams such as corporate partnerships or gift cards.
+Spring Health is a mental health platform that provides online mental health services directly to clients. The online counseling and therapy services are provided through web-based interaction as well as phone and text communication. Spring Health primarily operates as a subscription-based online mental health platform, but also generates revenue through other business streams such as corporate partnerships or gift cards.
 
 ## 3. Business Task
 
-BetterHelp would like to broaden their services to employees from tech companies through the corporate partnership model, called [Better Help for Organizations](https://www.betterhelporg.com/). For this reason, it requested an analysis of the *Mental Health in Tech* survey to help guide the marketing strategy for potential corporate partners in the tech industry.
+Spring Health would like to broaden their services to employees from tech companies through the corporate partnership model, called [Better Help for Organizations](https://www.betterhelporg.com/). For this reason, it requested an analysis of the *Mental Health in Tech* survey to help guide the marketing strategy for potential corporate partners in the tech industry.
 
 ## 4. Questions for Analysis
 
@@ -238,7 +238,7 @@ country_counts <- mutate(country_counts, Percentage = Freq / total_count * 100)
 print(country_counts)
 ```
 
--- The USA and Canada reflect 73% of respondents' country of work. These would be the best territories for BetterHelp to expand their corporate partnership model as there is currently more information from that region.
+-- The USA and Canada reflect 73% of respondents' country of work. These would be the best territories for Spring Health to expand their corporate partnership model as there is currently more information from that region.
 
 Lastly, I create a mosaic plot for the work modality and gender categories to visualize the distribution of both categorical variables.
 
@@ -278,7 +278,7 @@ benefits as part of healthcare coverage?") +
   guides(fill = guide_legend(title = NULL))
 ```
 
--- Less than half of the sample population of tech workers claim to receive mental health benefits as part of their healthcare coverage. According to [Statista](https://www.statista.com/statistics/674463/united-states-electronic-components-manufacturing/#:~:text=Tech%20sector%20employment%20in%20the%20U.S.%202020%2D2030%2C%20by%20occupation&text=In%202020%2C%20the%20United%20States,to%20reach%20almost%206%20million.), in 2020 the US employed roughly 5.2 million workers. For BetterHelp, this means that there is likely an available market of 2.8 million workers to expand their services to.
+-- Less than half of the sample population of tech workers claim to receive mental health benefits as part of their healthcare coverage. According to [Statista](https://www.statista.com/statistics/674463/united-states-electronic-components-manufacturing/#:~:text=Tech%20sector%20employment%20in%20the%20U.S.%202020%2D2030%2C%20by%20occupation&text=In%202020%2C%20the%20United%20States,to%20reach%20almost%206%20million.), in 2020 the US employed roughly 5.2 million workers. For Spring Health, this means that there is likely an available market of 2.8 million workers to expand their services to.
 
 ```{r}
 # to to check for package knowledge
@@ -349,7 +349,7 @@ treatment resources provided by your employer?") +
   guides(fill = guide_legend(title = NULL))
 ```
 
--- Anonymity around mental health in tech remains unknown for most workers (65%). Only 28% of them claim to have their confidentiality protected, which might inform responses in section 7.3. around most recurrent attitudes. This means that BetterHelp needs to address transparency around anonymity in their marketing efforts.
+-- Anonymity around mental health in tech remains unknown for most workers (65%). Only 28% of them claim to have their confidentiality protected, which might inform responses in section 7.3. around most recurrent attitudes. This means that Spring Health needs to address transparency around anonymity in their marketing efforts.
 
 Observed responses at work
 
@@ -472,7 +472,7 @@ print(category_counts2 %>%
          "Percentage" = Percentage))
 ```
 
--- The top two suspected mental health conditions are also (1) mood disorder (depression, bipolar disorder, etc.), and (2) anxiety disorder (generalized, social, phobia, etc.). They amount to 61.7% of all diagnosed mental health conditions, so BetterHelp should be prepared to tackle these disorders first and foremost.
+-- The top two suspected mental health conditions are also (1) mood disorder (depression, bipolar disorder, etc.), and (2) anxiety disorder (generalized, social, phobia, etc.). They amount to 61.7% of all diagnosed mental health conditions, so Spring Health should be prepared to tackle these disorders first and foremost.
 
 ```{r}
 # to check for mh medical diagnose
@@ -526,7 +526,7 @@ health issue from a mental health professional?") +
   theme(legend.title = element_blank())
 ```
 
--- Finally, even though only 39% of current tech workers claim to have current mental health disorders, 57% have sought treatment from a mental health professional. This indicates to BetterHelp the willingness of tech workers to address their mental health issues.
+-- Finally, even though only 39% of current tech workers claim to have current mental health disorders, 57% have sought treatment from a mental health professional. This indicates to Spring Health the willingness of tech workers to address their mental health issues.
 
 ### 8.3 Recurrent attitudes towards mental health in the work space
 
@@ -570,7 +570,7 @@ consequences?") +
   guides(fill = guide_legend(title = NULL))
 ```
 
--- However, there is a notable uncertainty around discussing mental health disorders with employers, as only 38.2% feel they would not face negative consequences. BetterHelp's solution should ensure its communication strategy with employees addresses no potential negative issues with their employees as they use their mental health services.
+-- However, there is a notable uncertainty around discussing mental health disorders with employers, as only 38.2% feel they would not face negative consequences. Spring Health's solution should ensure its communication strategy with employees addresses no potential negative issues with their employees as they use their mental health services.
 
 ```{r}
 # to check consequence of ph discussion with employer
@@ -648,7 +648,7 @@ issue with a potential employer in an interview?") +
         legend.title = element_text(face = "bold"))
 ```
 
--- When it comes to mental health being discussed in job interviews, employees tend to hide either physical or mental health issues from potential employers. However, mental health issues are hidden at double the rate of physical issues. BetterHelp could enable potential business partners to differentiate themselves as better places to work by helping them handle mental health issues in the application process.
+-- When it comes to mental health being discussed in job interviews, employees tend to hide either physical or mental health issues from potential employers. However, mental health issues are hidden at double the rate of physical issues. Spring Health could enable potential business partners to differentiate themselves as better places to work by helping them handle mental health issues in the application process.
 
 ```{r}
 # to create a word cloud with ph disclosure explanation
@@ -725,13 +725,13 @@ Sample profile:
 
 Current mental health offer:
 
--   Less than half of the sample receives mental health coverage. This indicates an available target market of 2.8 million potential customers for BetterHelp.
+-   Less than half of the sample receives mental health coverage. This indicates an available target market of 2.8 million potential customers for Spring Health.
 
 -   Strong need for mental health coverage to be simplified to workers.
 
 -   Mental health is not commonly addressed in the tech workplace.
 
--   Anonymity must be addressed in BetterHelp's marketing and communication efforts.
+-   Anonymity must be addressed in Spring Health's marketing and communication efforts.
 
 Status of employees' mental health:
 
@@ -747,13 +747,13 @@ Recurrent attitudes towards mental health in the workspace:
 
 -   There is guilt around bringing up mental health issues in the workplace that must be addressed with the association between a mental health diagnosis and a history of mental health in the family.
 
--   When it comes to mental health being discussed in job interviews, employees tend to hide either physical or mental health issues from potential employers (mental health at double the rate). BetterHelp could enable potential business partners to differentiate themselves as better places to work by helping them handle mental health issues in the application process.
+-   When it comes to mental health being discussed in job interviews, employees tend to hide either physical or mental health issues from potential employers (mental health at double the rate). Spring Health could enable potential business partners to differentiate themselves as better places to work by helping them handle mental health issues in the application process.
 
 -   Perceived negative effects of mental health issues transcend the workplace: respondents mainly believe it affects their entire career. Mental health in the tech workplace must be addressed as a public health issue too.
 
 ## 10. Conclusions
 
-BetterHelp should address potential business partners with three defining features: anonymous, practical, and public-health-oriented.
+Spring Health should address marketing to potential business partners with three defining features: (1) ensuring anonymity throughout the user process, (2) offering a practical interface that emphasizes employees' family history thoroughly during the diagnosis stage, and (3) putting emphasis on their solution as a public-health response since employees' mental health seems to affect their entire career.
 
 Main reasons:
 
@@ -761,7 +761,7 @@ Main reasons:
 
 -   There is a significant association between mental health family history and personal history, which must be practically addressed and communicated to clients
 
--   Negative effects from mental health transcend to employees' entire careers, so BetterHelp should partner with public organizations to reduce the cost from potential business partners
+-   Negative effects from mental health transcend to employees' entire careers, so Spring Health should partner with public organizations to reduce the cost from potential business partners
 
 Next steps:
 
